@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Best Online Food delivery Service in India|MyOnlineMeal.com</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" media="screen and (max-width:1170px)"
+ href="phone.css">
+	<script>
+	function myFunction()
+	{
+		alert("Nice to meet you! Welcome to Chilli Pepper!");
+	}
+	</script>
+</head>
+<body onload="myFunction()">
+	<nav id="navbar" class="background">
+		<div id="logo">
+			<img src="logo.jpg" alt="myOnlineMeal.com">
+		</div>
+		<ul>
+			<li class="item"><a href="#home"><strong>Home</strong></a></li>
+			<li class="item"><a href="#service" ><strong>Services</strong></a></li>
+			<li class="item"><a href="#menu" ><strong>Menu</strong></a></li>
+			<li class="item"><a href="#contact"><strong>Contact Us</strong></a></li>
+			<li class="item"><a href="#order" ><strong>Order</strong></a></li>
+		</ul>
+	</nav>
+	<section id="home" >
+		<h1 class="h-primary" style="font-size:60px;"><marquee behavior="scroll" direction="left" scrollamount="9">Welcome to Chilli Pepper</marquee></h1>
+		<p style="font-size:30px;"><strong>Straight out of the kitchen at your doorstep</strong></p>
+		<p style="font-size:30px;"><strong>Let deliciousness twirl in your mouth</strong></p>
+		<p style="font-size:30px;"><strong>Serving you lip-smaching dishes</strong></p>
+		<br>
+		<p style="font-size:50px; color:blanchedalmond"><strong>Loving Your Hunger!</strong></p>	
+	</section>
+	<section id="service" class="service-container background">
+		<h1 class="h-primary center" style="font-size:50px;"><marquee behavior="scroll" direction="left" scrollamount="5">Our Services</marquee></h1>
+		<div id="services">
+			<div class="box">
+				<img src="img2.jpg" alt="image">
+				<h1 class="h-secondary center" style="color:crimson; font-size:30px;">Sanitized packing</h1>
+				<p class="center" style="color:aliceblue;"><strong>We prepare and pack your food maintaining all sanitization protocols.</strong> </p>
+			</div>
+			
+			<div class="box">
+				<img src="image3.jpg" alt="image">
+				<h1 class="h-secondary center" style="color:chocolate; font-size:30px;">Bulk Ordering</h1>
+				<p class="center" style="color:aliceblue;"><strong>Bulk Ordering from us gives you exciting offers and discounts</strong></p>
+			</div>
+			
+			<div class="box">
+				<img src="image4.jpg" alt="image">
+				<h1 class="h-secondary center" style="color:blueviolet; font-size:30px;">Contactless delivery</h1>
+				<p class="center" style="color:aliceblue;"><strong>We provide contactless delivery at your doorstep to keep you safe.</strong> </p>
+			</div>
+		</div>
+	</section>
+	<section id="menu" class="background" >
+		<h1 class="h-primary" style="font-size:60px;"><marquee behavior="scroll" direction="left" scrollamount="9">Our Menu!</marquee></h1>
+<table border="6" class="table-container" >
+<tr>
+<th colspan="8">CHILLI PEPPER</th>
+<tr>
+<th colspan="2">ChickenPizza</th><th colspan="2">Rs.250</th>
+</tr>
+<tr>
+<th colspan="2">ChickenBurger</th><th colspan="2">Rs.220</th>
+</tr>
+<tr>
+<th colspan="2">FriedChicken</th><th colspan="2">Rs.500</th>
+</tr>
+<tr>
+<th colspan="2">ChickenPopcorn</th><th colspan="2">Rs.200</th>
+</tr>
+
+</tr>
+</table>
+	</section>
+	<section id="contact" class="background" >
+		<h1 class="h-primary" style="font-size:60px;"><marquee behavior="scroll" direction="left" scrollamount="9">Contact Us!</marquee></h1>
+		<address>
+			Mail to <a href="mailto:oindrilaghosh1992@gmail.com"><strong>Oindrila Ghosh</strong></a><br>
+			Call us at: 990324421<br>
+			Visit us at:<br>
+			33, Dacres Lane, Kolkata 783645
+		</address>
+	</section>
+	<section id="order">
+		
+		<h1 class="h-primary2 center" style="font-size:60px;"><marquee behavior="scroll" direction="left" scrollamount="9">Order Now!</marquee></h1>
+		<div id="order-box">
+			<form action="">
+				<div class="form-group">
+					<label form="name" style="font-size:20px;color:white;"><strong>Name:</strong></label>
+					<input type="text" name="name" placeholder="Enter your name:">
+				
+					<label form="email" style="font-size:20px;color:white;"><strong>Email:</strong></label>
+					<input type="email" name="email" placeholder="Enter your email:">
+				
+					<label form="phone" style="font-size:20px;color:white;"><strong>Phone:</strong></label>
+					<input type="number" name="phone" placeholder="Enter your phone number:">
+				
+					<label form="Password" style="font-size:20px;color:white;"><strong>Password:</strong></label>
+					<input type="password" name="password" placeholder="Enter password:">
+				
+					<label form="Birthday" style="font-size:20px;color:white;"><strong>Birthday:</strong></label>
+					<input type="date" name="birthday" placeholder="Enter your birthday:">
+				
+					<label form="pincode" style="font-size:20px;color:white;"><strong>pincode:</strong></label>
+					<input type="text" name="pincode" pattern="[A-Za-z]{3}" title="Three letter pin code" required><br>
+				
+					<label form="payment" style="font-size:20px;color:white;"><strong>Mode of payment:</strong></label>
+					<input class="radio1" type="radio" name="payment" value="COD" checked><strong>Cash on Delivery</strong><br>
+					<input type="radio" name="payment" value="Online"><strong>Net Banking</strong><br>
+				
+					<label for="foodie" style="font-size:20px; color:white;">Choose your food from the list:</label>
+ 					 <input list="food" name="foodie" id="foodie">
+  					<datalist id="food">
+    					<option value="Chicken Pizza">
+   					 <option value="Chicken Burger">
+   					 <option value="Fried chicken">
+    					<option value="Chicken Popcorn">
+ 					 </datalist>
+					<div class="form group">
+						<label form="onow" style="font-size:20px;color:white;"><strong>Order Now:</strong></label>
+						<button class="btn">Order Now!</button>
+					</div>	
+				</div>
+			</form>
+		</div>
+	</section>
+	<footer class="background">
+		<div class="center">
+			Copyright &copy; www.ChilliPepper.com. All rights Reserved
+		</div>
+	</footer>
+</body>
+</html>
